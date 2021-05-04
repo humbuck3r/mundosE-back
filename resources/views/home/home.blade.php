@@ -15,15 +15,10 @@
 
 
     <main>
-        <div>
-            <img class="img1" src="{{asset('images/Mi publicación2.jpg') }}" alt="">
-        </div>
+
 
     </main>
-    <footer class="foot">
-            <p class="name">Alumno:Ezequiel Montero</p>
-            <img class="img_foot" src="{{asset('images/icono.jpg') }}" alt="">
-    </footer>
+
 
 
 </body>
