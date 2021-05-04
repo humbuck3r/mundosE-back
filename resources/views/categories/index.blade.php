@@ -13,7 +13,7 @@
                     <div class="input-group">
                         <input type="text" name="search" class="form-control" placeholder="Buscar">
 
-                         <button class="btn btn-outline-info" type="submit"><span class="fas fa-search" aria-hidden="true"></span> Buscar</button>
+                        <button class="btn btn-outline-info" type="submit"><span class="fas fa-search" aria-hidden="true"></span> Buscar</button>
 
                     </div>
                 </form>

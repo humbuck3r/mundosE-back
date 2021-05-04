@@ -22,9 +22,13 @@ Route::group(['prefix' => 'post'], function () {
     Route::post('search', 'PostController@search')->name('post.search');
 });
 
-Route::resource('category', 'CategoryController');
-Route::group(['prefix' => 'category'], function () {
+Route::resource('contacts', 'ContactController');
+Route::group(['prefix'=> 'contacts'], function () {
+    route::post('search','ContactController@search')->name('contacts.search');
+});
+
+Route::resource('categories', 'CategoryController');
+Route::group(['prefix' => 'categories'], function () {
     Route::post('search', 'CategoryController@search')->name('category.search');
 });
 
-;

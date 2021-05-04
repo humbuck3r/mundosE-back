@@ -108,7 +108,7 @@ class CategoryController extends Controller
     public function destroy($id)
     {
         Category::destroy($id);
-        return redirect()->route("categories.index");
+        return redirect()->route("category.index");
         Session::flash('alert-success', 'Se ha eliminado con éxito!');
     }
 }
