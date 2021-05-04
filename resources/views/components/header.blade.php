@@ -1,4 +1,5 @@
- <link rel="shortcut icon" type="image/png" href="{{ asset('/images/icono.jpg') }}">
+ <header>
+  <link rel="shortcut icon" type="image/png" href="{{ asset('/images/icono.jpg') }}">
     <link rel="shortcut icon" sizes="192x192" href="{{ asset('/images/icono.jpg') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
@@ -28,3 +29,5 @@
     </div>
   </div>
 </nav>
+
+</header>
